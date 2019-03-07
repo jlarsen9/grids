@@ -16,6 +16,14 @@ function createButtonRow(numButtons) {
 var numRows = 4
 var numColumns = 3
 
-for (var i = 1; i <= numRows; i++) {
+for (var p = 1; p <= numRows; p++) {
     createButtonRow(numColumns)
 }
+
+
+//--------------
+
+//make a row of 4 buttons and 3 columns
+
+var row = ""
+
